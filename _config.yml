@@ -1,0 +1,14 @@
+title: The Bad Monkey Dev
+email: michaelkelly322@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a software engineer, husband, and father. I specialize
+  in saving struggling projects, building MVPs and taking
+  them to the next level.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thebadmonkeydev.github.io" # the base hostname & protocol for your site
+twitter_username: thebadmonkeydev
+github_username:  thebadmonkeydev
+
+# Build settings
+markdown: kramdown
+theme: minima

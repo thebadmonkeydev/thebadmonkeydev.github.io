@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header class="triple">
+  <section>Name/Statement</section>
+  <section>Image</section>
+  <section>Contact Details</section>
+</header>
+
+<div class="double-column">
+  <ul class="experience-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
