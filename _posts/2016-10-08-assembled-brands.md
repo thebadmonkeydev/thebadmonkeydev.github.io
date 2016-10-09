@@ -5,8 +5,8 @@ title:   Senior Software Engineer
 start:   02/2016
 finish:  present
 achievements:
-  - Achievement 1
-  - Achievement 2
+  - Developed multi-partner retail platform API to service 3 initial client applications and 5 partner boutiques
+  - Rebuilt internal inventory processing to provide real-time integration with multiple services providers
 
 published: true
 ---

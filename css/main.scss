@@ -41,6 +41,7 @@ $on-laptop:        800px;
         'neat/neat',
         'base/base';
 @import 'fade';
+@import 'tooltip';
 
 header.triple {
   @include outer-container;

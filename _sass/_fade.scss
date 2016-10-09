@@ -15,12 +15,17 @@
   line-height: $base-line-height;
   margin-bottom: 4em;
   padding: $base-spacing;
-  text-align: center;
+    text-align: left;
   width: 100%;
 
   p {
     color: $base-font-color;
     line-height: $base-line-height;
+  }
+
+  li {
+    margin-bottom: 5px;
+    font-size: 12px;
   }
 }
 

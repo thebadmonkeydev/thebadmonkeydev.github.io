@@ -5,8 +5,7 @@ title:   Contract Software Engineer
 start:   12/2013
 finish:  03/2014
 achievements:
-  - 1
-  - 2
+  - Collaborated with Force designers to implement a multi-tenant customer facing marketing dashboard
 
 published: true
 ---
