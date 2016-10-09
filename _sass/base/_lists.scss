@@ -3,6 +3,10 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  li {
+    margin-bottom: 20px;
+  }
 }
 
 dl {
@@ -22,4 +26,8 @@ ul.simple {
   list-style-type: disc;
   padding-left: 35px;
   margin-bottom: 20px;
+
+  li {
+    margin: 0;
+  }
 }

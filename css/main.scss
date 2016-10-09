@@ -48,7 +48,7 @@ header.triple {
 
   section {
     @include span-columns(4);
-    @include media($mobile) {
+    @include media($middle) {
       @include span-columns(12);
     }
 
@@ -76,20 +76,20 @@ header.triple {
   @include outer-container;
   padding: 20px;
 
-  h2 {
+  h3 {
     margin-bottom: 0px;
   }
 
   .experience {
     @include span_columns(6);
-    @include media($mobile) {
+    @include media($middle) {
       @include span-columns(12);
     }
   }
 
   .personal {
     @include span_columns(6);
-    @include media($mobile) {
+    @include media($middle) {
       @include span-columns(12);
     }
   }

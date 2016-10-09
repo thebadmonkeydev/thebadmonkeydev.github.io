@@ -1,4 +1,5 @@
-$mobile: new-breakpoint(max-width 580px);
+$mobile: new-breakpoint(max-width 500px);
+$middle: new-breakpoint(max-width 690px);
 $desktop: new-breakpoint(min-widht 850px);
 
 figure {

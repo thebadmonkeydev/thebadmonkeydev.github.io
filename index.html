@@ -12,27 +12,45 @@ layout: default
   </section>
   <section>
     <span class='social-link'>
-      <a href='mailto:michaelkelly322@gmail.com' target='_top'>michaelkelly322@gmail.com</a><i class='fa fa-envelope' aria-hidden=true></i><br />
+      <a href='mailto:michaelkelly322@gmail.com' target='_blank'>michaelkelly322@gmail.com</a><i class='fa fa-envelope' aria-hidden=true></i><br />
     </span>
     <span class='social-link'>
-      <a href='https://twitter.com/thebadmonkeydev' target='_top'>@thebadmonkeydev</a><i class='fa fa-twitter' aria-hidden=true></i><br />
+      <a href='https://twitter.com/thebadmonkeydev' target='_blank'>@thebadmonkeydev</a><i class='fa fa-twitter' aria-hidden=true></i><br />
     </span>
     <span class='social-link'>
-      <a href='https://github.com/thebadmonkeydev' target='_top'>thebadmonkeydev</a><i class='fa fa-code-fork' aria-hidden=true></i><br />
+      <a href='https://github.com/thebadmonkeydev' target='_blank'>thebadmonkeydev</a><i class='fa fa-code-fork' aria-hidden=true></i><br />
+    </span>
+    <span class='social-link'>
+      <a href='http://www.slideshare.net/MichaelKelly21' target='_blank'>MichaelKelly</a><i class='fa fa-slideshare' aria-hidden=true></i><br />
     </span>
   </section>
 </header>
 
 <div class="double-column">
+  <div class='personal'>
+    <h2>Technical Talks/Presentations</h2>
+    <ul>
+      <li>
+        <span class='post-meta'><em>Rails Remote Conf 2016: </em>Oct 2016 - The Interwebz</span>
+        <div>Hey, do you even PORO?</div>
+      </li>
+      <li>
+        <span class='post-meta'><em>RailsConf 2016: </em>May 2016 - Kansas City, MO</span>
+        <div><a href='https://www.youtube.com/watch?v=KVkQ9UEQk0Y' target='_blank'>Zen and the Art of the Controller</a></div>
+      </li>
+    </ul>
+  </div>
+
   <div class='experience'>
+    <h2>Professional Experience</h2>
     <ul>
       {% for post in site.posts %}
         <li>
           <span class="post-meta">{{ post.start | date: "%m/%Y" }} - {{ post.finish | data: "%m/%Y" }}</span>
 
-          <h2>
+          <h3>
             {{ post.company | escape }}
-          </h2>
+          </h3>
           <span class='post-meta'>{{ post.title }}</span>
 
           <ul class='simple'>
@@ -43,9 +61,5 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-  </div>
-
-  <div class='personal'>
-    FOO
   </div>
 </div>
