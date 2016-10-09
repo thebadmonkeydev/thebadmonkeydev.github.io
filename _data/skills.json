@@ -1,0 +1,33 @@
+[
+    {
+      "name":"Server-Side", "children":[
+        {"name":"Ruby"},
+        {"name":"Ruby on Rails"},
+        {"name":"Rack"},
+        {"name":"Node.js"}
+      ]
+    },
+    {
+      "name": "Client-Side", "children":[
+        {"name":"CSS3"},
+        {"name":"HTML5"},
+        {"name":"JQuery"},
+        {"name":"React.js"},
+        {"name":"Ember.js"}
+      ]
+    },
+    {
+      "name":"Process", "children":[
+        {"name":"Test Driven Development"},
+        {"name":"Agile"},
+        {"name":"Lean Startups"}
+      ]
+    },
+    {
+      "name":"DevOps", "children":[
+        {"name":"Amazon Web Services (AWS)"},
+        {"name":"Heroku"},
+        {"name":"Github"}
+      ]
+    }
+]

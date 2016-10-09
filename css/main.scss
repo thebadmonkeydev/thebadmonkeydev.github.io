@@ -83,7 +83,7 @@ header.triple {
   }
 
   .column {
-    @include span_columns(6);
+    @include span-columns(6);
     @include media($middle) {
       @include span-columns(12);
     }
@@ -98,6 +98,12 @@ header.triple {
   li.block {
     @include span-columns(6);
     @include omega(2n);
+
+    @include media($middle) {
+      @include span-columns(12);
+      @include omega(n);
+    }
   }
 }
+
 

@@ -1,0 +1,14 @@
+<div class='skills'>
+  {% for category in site.data.skills %}
+    <h3>{{ category.name }}</h3>
+    <div class='column'>
+      <ul class='simple'>
+        {% for skill in category.children %}
+          <li>
+            {{ skill.name }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
