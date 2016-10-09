@@ -49,20 +49,20 @@ header.triple {
 
   section {
     @include span-columns(4);
+    text-align: center;
+
     @include media($middle) {
       @include span-columns(12);
     }
 
-    text-align: center;
-
     &:first-child {
       text-align: left;
-      padding-top: 30px;
+      padding-top: 50px;
     }
 
     &:last-child {
       text-align: right;
-      padding-top: 30px;
+      padding-top: 50px;
     }
 
     .social-link {
@@ -90,5 +90,5 @@ header.triple {
 }
 
 .introduction {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
