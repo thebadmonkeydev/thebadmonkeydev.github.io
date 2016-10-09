@@ -82,9 +82,15 @@ header.triple {
 
   .experience {
     @include span_columns(6);
+    @include media($mobile) {
+      @include span-columns(12);
+    }
   }
 
   .personal {
     @include span_columns(6);
+    @include media($mobile) {
+      @include span-columns(12);
+    }
   }
 }
