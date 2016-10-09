@@ -1,0 +1,31 @@
+header.triple {
+  @include outer-container;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  section {
+    @include span-columns(4);
+    text-align: center;
+
+    @include media($middle) {
+      @include span-columns(12);
+    }
+
+    &:first-child {
+      text-align: left;
+      padding-top: 50px;
+    }
+
+    &:last-child {
+      text-align: right;
+      padding-top: 50px;
+    }
+
+    .social-link {
+      line-height: 2.0;
+      font-size: 14px;
+    }
+  }
+}
+
+

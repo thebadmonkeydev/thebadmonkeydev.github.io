@@ -1,0 +1,74 @@
+.as-nav {
+  background-color: $dark-gray;
+  color: $light-gray;
+  height: 70px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999999;
+  transition: all 0.5s ease-in-out;
+
+  .img-wrap {
+    padding: 0px;
+
+    img {
+      height: 50px;
+      width: auto;
+    }
+  }
+
+  header.triple {
+
+    section {
+      padding-top: 5px;
+
+      a {
+        color: $light-gray;
+      }
+
+      .text {
+        display: none;
+      }
+
+      .social-link {
+        line-height: 2em;
+        font-size: 1.5em;
+        @include span-columns(1 of 4);
+      }
+
+      @include media($middle) {
+        @include span-columns(4);
+        text-align: center;
+
+        h1 {
+          font-size: modular-scale(1);
+          line-height: 2em;
+        }
+      }
+
+      @include media($mobile) {
+        @include span-columns(6);
+        text-align: left;
+
+        &:first-child {
+          display: none;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .social-link {
+          line-height: 1.5em;
+          font-size: 1.5em;
+          @include span-columns(3);
+        }
+      }
+    }
+  }
+
+  p {
+    display: none;
+  }
+}
+
