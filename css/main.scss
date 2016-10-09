@@ -93,3 +93,11 @@ header.triple {
 .introduction {
   margin-bottom: 50px;
 }
+
+.experience {
+  li.block {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+}
+
