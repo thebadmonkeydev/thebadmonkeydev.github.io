@@ -80,14 +80,7 @@ header.triple {
     margin-bottom: 0px;
   }
 
-  .experience {
-    @include span_columns(6);
-    @include media($middle) {
-      @include span-columns(12);
-    }
-  }
-
-  .personal {
+  .column {
     @include span_columns(6);
     @include media($middle) {
       @include span-columns(12);

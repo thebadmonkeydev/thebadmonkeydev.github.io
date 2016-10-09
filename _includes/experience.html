@@ -1,0 +1,21 @@
+<div class='column experience'>
+  <h2>Professional Experience</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.start | date: "%m/%Y" }} - {{ post.finish | data: "%m/%Y" }}</span>
+
+        <h3>
+          {{ post.company | escape }}
+        </h3>
+        <span class='post-meta'>{{ post.title }}</span>
+
+        <ul class='simple'>
+          {% for item in post.achievements %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
