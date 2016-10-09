@@ -2,7 +2,7 @@
   <h2>Professional Experience</h2>
   <ul>
     {% for post in site.posts %}
-      <li>
+      <li id='js-fadeInElement' class='fade-in-element'>
         <span class="post-meta">{{ post.start | date: "%m/%Y" }} - {{ post.finish | data: "%m/%Y" }}</span>
 
         <h3>

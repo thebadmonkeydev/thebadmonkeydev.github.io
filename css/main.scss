@@ -40,6 +40,7 @@ $on-laptop:        800px;
 @import 'bourbon/bourbon',
         'neat/neat',
         'base/base';
+@import 'fade';
 
 header.triple {
   @include outer-container;
