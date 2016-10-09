@@ -11,28 +11,41 @@ layout: default
     <img src="assets/profile.png" />
   </section>
   <section>
-    <span>
+    <span class='social-link'>
       <a href='mailto:michaelkelly322@gmail.com' target='_top'>michaelkelly322@gmail.com</a><i class='fa fa-envelope' aria-hidden=true></i><br />
     </span>
-    <span>
+    <span class='social-link'>
       <a href='https://twitter.com/thebadmonkeydev' target='_top'>@thebadmonkeydev</a><i class='fa fa-twitter' aria-hidden=true></i><br />
     </span>
-    <span>
+    <span class='social-link'>
       <a href='https://github.com/thebadmonkeydev' target='_top'>thebadmonkeydev</a><i class='fa fa-code-fork' aria-hidden=true></i><br />
     </span>
   </section>
 </header>
 
 <div class="double-column">
-  <ul class="experience-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class='experience'>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.start | date: "%m/%Y" }} - {{ post.finish | data: "%m/%Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          <h2>
+            {{ post.company | escape }}
+          </h2>
+          <span class='post-meta'>{{ post.title }}</span>
+
+          <ul class='simple'>
+            {% for item in post.achievements %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class='personal'>
+    FOO
+  </div>
 </div>
