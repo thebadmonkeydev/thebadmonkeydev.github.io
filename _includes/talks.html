@@ -1,17 +1,19 @@
 <div class='talks'>
   <h2>Tech Talks</h2>
   <ul>
-    <li class='column'>
-      <div class='video'>
-        <div class='video-wrapper'>
-          <iframe src="https://www.youtube.com/embed/KVkQ9UEQk0Y?showinfo=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+    {% for talk in site.data.talks %}
+      <li class='column'>
+        <div class='video'>
+          <div class='video-wrapper'>
+            <iframe src="{{ talk.youtube_embed }}?showinfo=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-      <span class='post-meta'><em>RailsConf 2016: </em>May 2016 - Kansas City, MO</span>
-    </li>
-    <li class='column'>
-      <div><a href='javascript:void(0)' target='_blank'>Hey, do you even PORO?</a> - coming soon</div>
-      <span class='post-meta'><em>Rails Remote Conf 2016: </em>Oct 2016 - The Interwebz</span>
-    </li>
+      </li>
+      <li class='column'>
+        <div><a href='javascript:void(0)' target='_blank'>{{ talk.conference }}</a></div>
+        <span class='post-meta'>{{ talk.location }}</span>
+        <p>{{ talk.description }}</p>
+      </li>
+    {% endfor %}
   </ul>
 </div>
