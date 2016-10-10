@@ -6,7 +6,7 @@ window.processFade = ()->
     windowInnerHeight = window.innerHeight
     elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop
     elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop
-    distanceFromBottomToAppear = 250
+    distanceFromBottomToAppear = 200
 
     if elementTopToWindowBottom > distanceFromBottomToAppear
       $(element).addClass 'js-fade-element-show'
