@@ -24,6 +24,10 @@ header.triple {
     .social-link {
       line-height: 2.0;
       font-size: 14px;
+
+      &::after {
+        @include clearfix;
+      }
     }
   }
 }
