@@ -1,6 +1,7 @@
 ---
 layout:  default
 company: United Way of Central Georgia
+company_url: http://www.unitedwaycg.org/
 title:   Contract Software Analyst/Developer
 start:   02/2011
 finish:  11/2011

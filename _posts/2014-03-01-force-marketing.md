@@ -1,6 +1,7 @@
 ---
 layout:  default
 company: Force Marketing, Inc.
+company_url: http://forcemktg.com/
 title:   Contract Software Engineer
 start:   12/2013
 finish:  03/2014

@@ -1,6 +1,7 @@
 ---
 layout:  default
 company: Assembled Brands, Inc.
+company_url: https://assembledbrands.com/
 title:   Senior Software Engineer
 start:   02/2016
 finish:  present

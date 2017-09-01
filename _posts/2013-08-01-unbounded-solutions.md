@@ -1,6 +1,7 @@
 ---
 layout:  default
 company: Unbounded Solutions, Inc.
+company_url: http://theunbounded.com/
 title:   Senior Application Developer
 start:   01/2012
 finish:  08/2013

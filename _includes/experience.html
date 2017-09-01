@@ -6,7 +6,7 @@
         <span class="post-meta">{{ post.start | date: "%m/%Y" }} - {{ post.finish | data: "%m/%Y" }}</span>
 
         <h3>
-          {{ post.company | escape }}
+          <a href={{post.company_url}} target='_blank'>{{ post.company | escape }}</a>
         </h3>
         <span class='post-meta'>{{ post.title }}</span>
 

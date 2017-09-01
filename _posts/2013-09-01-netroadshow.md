@@ -1,6 +1,7 @@
 ---
 layout:  default
 company: NetRoadShow, Inc.
+company_url: https://om.netroadshow.com/OM.Services/index.html#/
 title:   Contract Software Engineer
 start:   08/2013
 finish:  09/2013
