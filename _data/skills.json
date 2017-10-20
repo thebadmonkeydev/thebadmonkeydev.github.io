@@ -4,15 +4,17 @@
         {"name":"Ruby"},
         {"name":"Ruby on Rails"},
         {"name":"Rack"},
-        {"name":"Node.js"}
+        {"name":"Node.js"},
+        {"name":"GraphQL"}
       ]
     },
     {
       "name": "Client-Side", "children":[
+        {"name":"React.js"},
+        {"name":"Relay"},
         {"name":"CSS3"},
         {"name":"HTML5"},
         {"name":"JQuery"},
-        {"name":"React.js"},
         {"name":"Ember.js"}
       ]
     },
