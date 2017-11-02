@@ -4,7 +4,8 @@
         {"name":"Ruby on Rails"},
         {"name":"GraphQL"},
         {"name":"Sidekiq"},
-        {"name":"Docker"}
+        {"name":"Docker"},
+        {"name":"Nginx"}
       ]
     },
     {
@@ -29,7 +30,7 @@
         {"name":"Heroku"},
         {"name":"Github"},
         {"name":"Gitlab"},
-        {"name":"Semaphore CI"}
+        {"name":"*nix"}
       ]
     },
     {
