@@ -1,21 +1,19 @@
 [
     {
       "name":"Server-Side", "children":[
-        {"name":"Ruby"},
         {"name":"Ruby on Rails"},
-        {"name":"Rack"},
-        {"name":"Node.js"},
-        {"name":"GraphQL"}
+        {"name":"GraphQL"},
+        {"name":"Sidekiq"},
+        {"name":"Docker"}
       ]
     },
     {
       "name": "Client-Side", "children":[
         {"name":"React.js"},
-        {"name":"Relay"},
+        {"name":"Relay.js"},
         {"name":"CSS3"},
         {"name":"HTML5"},
-        {"name":"JQuery"},
-        {"name":"Ember.js"}
+        {"name":"JQuery"}
       ]
     },
     {
@@ -29,7 +27,19 @@
       "name":"DevOps", "children":[
         {"name":"Amazon Web Services (AWS)"},
         {"name":"Heroku"},
-        {"name":"Github"}
+        {"name":"Github"},
+        {"name":"Gitlab"},
+        {"name":"Semaphore CI"}
+      ]
+    },
+    {
+      "name":"APIs", "children":[
+        {"name":"Slack"},
+        {"name":"Heroku Platform"},
+        {"name":"Heroku Addon"},
+        {"name":"Github"},
+        {"name":"Stripe"},
+        {"name":"Shopify"}
       ]
     }
 ]

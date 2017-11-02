@@ -1,14 +1,16 @@
-<div class='skills'>
+<div class='skills quad-column'>
   {% for category in site.data.skills %}
-    <h3>{{ category.name }}</h3>
-    <div class='column'>
-      <ul class='simple'>
-        {% for skill in category.children %}
-          <li>
-            {{ skill.name }}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+    {% if category.name != 'Process' %}
+      <div class='column'>
+        <h3>{{ category.name }}</h3>
+        <ul class='simple'>
+          {% for skill in category.children %}
+            <li>
+              {{ skill.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>

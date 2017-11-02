@@ -6,8 +6,9 @@ title:   Senior Software Engineer
 start:   02/2016
 finish:  present
 achievements:
-  - Developed multi-partner retail platform API to service 3 initial client applications and 5 partner boutiques
-  - Rebuilt internal inventory processing to provide real-time integration with multiple services providers
+  - Developed multi-partner retail platform API to service more than $100k in quarterly revenue
+  - Rebuilt internal inventory processing to provide real-time integration with Brightpearl, Stripe, and Shopify
+  - Engineered an API solution to manage the movement of over 75k pieces of inventory
 
 published: true
 ---

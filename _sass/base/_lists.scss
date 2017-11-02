@@ -28,6 +28,7 @@ ul.simple {
   margin: 20px 0;
 
   li {
+    color: lighten($text-color, 40);
     margin: 0;
   }
 }

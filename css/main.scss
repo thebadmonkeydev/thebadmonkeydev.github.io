@@ -58,6 +58,28 @@ $on-laptop:        800px;
     @include media($middle) {
       @include span-columns(12);
     }
+
+    padding: 15px;
+    margin: 0;
+  }
+}
+
+.quad-column {
+  @include outer-container;
+  padding: 20px;
+
+  h3 {
+    margin-bottom: 0px;
+  }
+
+  .column {
+    @include span-columns(3);
+    @include media($middle) {
+      @include span-columns(6);
+    }
+
+    padding: 15px;
+    margin: 0 !Important;
   }
 }
 
