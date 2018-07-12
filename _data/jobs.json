@@ -1,0 +1,95 @@
+[
+  {
+    "company": "StackShare",
+    "company_url": "https://stackshare.io",
+    "title": "Senior Software Engineer/Backen Lead",
+    "start": "03/2018",
+    "finish": "present",
+    "achievements": [
+      "Designed and implemented the GraphQL API layer used for all new features",
+      "Released in-house GraphQL caching solution as OSS",
+      "Developed engineering processes reducing wasted meating time by 10s of hours weekly",
+      "Re-designed the engineering onboarding flow to reduce new dev ramp up time by weeks"
+    ]
+  },
+  {
+    "company": "Assembled Brands",
+    "company_url": "https://assembledbrands.com",
+    "title": "Senior Software Engineer",
+    "start": "02/2016",
+    "finish": "02/2018",
+    "achievements": [
+      "Developed multi-partner retail platform API to service more than $100k in quarterly revenue",
+      "Rebuilt internal inventory processing to provide real-time integration with Brightpearl, Stripe, and Shopify",
+      "Engineered an API solution to manage the movement of over 75k pieces of inventory"
+    ]
+  },
+  {
+    "company": "Monsieur",
+    "company_url": "https://monsieur.co",
+    "title": "Senior Web Engineer",
+    "start": "07/2015",
+    "finish": "02/2016",
+    "achievements": [
+      "Re-architected Monsieur's micro-service API and front-end application to successfully launch the second generation of their machine hardware",
+      "Built a junior developer mentor program within Monsieur to provide career oportunity to developers who otherwise would be turned away"
+    ]
+  },
+  {
+    "company": "BLiNQ Media",
+    "company_url": "https://www.crunchbase.com/organization/blinq-media",
+    "title": "Engineering Team Lead",
+    "start": "03/2014",
+    "finish": "06/2015",
+    "achievements": [
+      "Rescued BLiNQ's small-business social marketing platform from cancelation by creating a small agile strike team and turning user adoption around by more than 50%",
+      "Implemented process changes within the engineering team creating an increase in producitivity that allowed the developement of new solution instead of constant maintenance"
+    ]
+  },
+  {
+    "company": "Force Marketing",
+    "company_url": "http://forcemktg.com",
+    "title": "Contract Application Developer",
+    "start": "12/2013",
+    "finish": "03/2014",
+    "achievements": [
+      "Collaborated with Force designers to implement a multi-tenant customer facing marketing dashboard",
+      "Implemented a new agile development methodology and set the ground-work for the growth of a new internal development team"
+    ]
+  },
+  {
+    "company": "NetRoadShow",
+    "company_url": "https://om.netroadshow.com/OM.Services/index.html#/",
+    "title": "Contract Application Developer",
+    "start": "08/2013",
+    "finish": "09/2013",
+    "achievements": [
+      "Developed solutions allowing NetRoadshow to obtain PCI compliance on their StructureFN financial platform",
+      "Estimated project plans for the scheduling new products and growing the development team by 6 new members"
+    ]
+  },
+  {
+    "company": "Unbounded Solutions",
+    "company_url": "https://www.theunbounded.com/",
+    "title": "Senior Application Developer",
+    "start": "01/2012",
+    "finish": "08/2013",
+    "achievements": [
+      "Trained and supported Sharepoint and Documentum consultants improving average project success rate from 70% to 97%",
+      "Consulted on the creation of an internal software product development team resulting in the conpletion of the Sharepoint Printing Services product ahead of schedule",
+      "Engineered the solution integrating Printing Services with Sharepoint Online that is used internationally by Fortune 500 companies"
+    ]
+  },
+  {
+    "company": "United Way of Central Georgia",
+    "company_url": "https://www.unitedwaycg.org/",
+    "title": "Contract Software Analyst/Developer",
+    "start": "02/2011",
+    "finish": "11/2011",
+    "achievements": [
+      "Led the migration and reconfiguration of a Windows Server 2003 infrastructure to Server 2008 resulting in a reduction of technical support requests by more than 25%",
+      "Prepared project strategy for obtaining PCI compliance"
+    ]
+  }
+]
+
