@@ -1,10 +1,22 @@
 [
   {
+    "company": "Calendly",
+    "company_url": "https://calendly.com",
+    "title": "Lead Software Engineer",
+    "start": "8/2019",
+    "finish": "present",
+    "achievements": [
+      "Rebuilt the engineer onboarding process providing repeatability as hiring grew",
+      "Built/deployed internal workflow tools, streamlining deployments",
+      "Facilitated the migration of major portions of the existing frontend framework to React.js"
+    ]
+  },
+  {
     "company": "StackShare",
     "company_url": "https://stackshare.io",
     "title": "Senior Software Engineer/Backen Lead",
     "start": "03/2018",
-    "finish": "present",
+    "finish": "08/2019",
     "achievements": [
       "Designed and implemented the GraphQL API layer used for all new features",
       "Released in-house GraphQL caching solution as OSS",
