@@ -3,14 +3,7 @@
   <ul>
     {% for talk in site.data.talks %}
       <li class='column'>
-        <div class='video'>
-          <div class='video-wrapper'>
-            <iframe src="{{ talk.youtube_embed }}?showinfo=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </li>
-      <li class='column'>
-        <div><a href='javascript:void(0)' target='_blank'>{{ talk.conference }}</a></div>
+        <div><a href='{{ talk.youtube_embed }}' target='_blank'>{{ talk.conference }}</a></div>
         <span class='post-meta'>{{ talk.location }}</span>
         <p>{{ talk.description }}</p>
       </li>
