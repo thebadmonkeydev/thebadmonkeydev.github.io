@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 ruby '2.7.2'
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -9,11 +9,12 @@ ruby '2.7.2'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem 'jekyll'
+gem 'kramdown', '>= 2.3.0'
 gem 'jekyll-coffeescript'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+gem 'minima'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
