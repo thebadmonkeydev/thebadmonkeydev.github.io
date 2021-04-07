@@ -2,13 +2,16 @@
   {
     "company": "Calendly",
     "company_url": "https://calendly.com",
-    "title": "Lead Software Engineer",
+    "title": "Core Engineering Team Lead",
     "start": "8/2019",
     "finish": "present",
     "achievements": [
-      "Rebuilt the engineer onboarding process providing repeatability as hiring grew",
-      "Built/deployed internal workflow tools, streamlining deployments",
-      "Facilitated the migration of major portions of the existing frontend framework to React.js"
+      "Led core engineering team of 2-3 US-based engineers and 3-4 EU-based engineers",
+      "Led expansion of engineering on-call through process, training, and the creation of an internal guild focused on stability and response",
+      "Developed implementation plans and oversaw their execution for both product and technical projects",
+      "Worked closely with Product Management to prioritize feature development while also paying down technical debt accrued over time",
+      "Worked with QA and CX directly triaging/prioritizing incoming bug reports achieving a reduction of bug SLA breaches from many tens of breaches monthy in early 2020 to 2 in 2021",
+      "Contributed to the implementation of an incident management/RCA process achieving 99.92% uptime in 2020 and 99.99% uptime in 2021 so far"
     ]
   },
   {
