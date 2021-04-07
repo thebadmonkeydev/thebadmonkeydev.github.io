@@ -10,5 +10,6 @@ github_username:  thebadmonkeydev
 # Build settings
 markdown: kramdown
 theme: minima
+encoding: utf-8
 gems:
   - jekyll-coffeescript
